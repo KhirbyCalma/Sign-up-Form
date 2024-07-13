@@ -4,9 +4,12 @@ body {
     overflow: hidden;
 }
 
-section.side-hero,
-section.sign-up {
+section.side-hero {
     flex: 1;
+}
+
+section.sign-up {
+    flex: 2;
 }
 
 /* LEFT SIDE */
