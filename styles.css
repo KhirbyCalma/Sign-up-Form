@@ -4,6 +4,10 @@
     --universal-padding: 1rem;
 }
 
+html * {
+    font-family: "Ubuntu", sans-serif;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -50,7 +54,6 @@ section.side-hero .banner img {
 
 section.side-hero .banner h1 {
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
 }
 
 /* RIGHT SIDE */
