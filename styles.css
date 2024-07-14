@@ -10,7 +10,6 @@ html * {
 
 body {
     display: flex;
-    flex-wrap: wrap;
     min-height: 100vh;
 }
 
@@ -170,4 +169,26 @@ span[aria-label="required"] {
     color: #F09819;
     font-weight: bold;
     text-decoration: none;
+}
+
+/* LAPTOP AND UNDER */
+@media only screen and (max-width: 1024px) {
+    body {
+        flex-direction: column;
+    }
+
+    .right-side {
+        align-items: center;
+    }
+}
+
+/* TABLET AND UNDER */
+@media only screen and (max-width: 768px) {
+    .right-side > * {
+        width: 100%;
+    }
+
+    .right-side section.user-account form section.personal-info {
+        grid-template-columns: repeat(1, minmax(max-content, 1fr));
+    }
 }
