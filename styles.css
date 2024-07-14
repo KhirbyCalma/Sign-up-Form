@@ -116,6 +116,10 @@ section.sign-up form section.personal-info div {
     gap: calc(var(--universal-padding) / 2);
 }
 
+section.sign-up form section.personal-info div label {
+    text-transform: uppercase;
+}
+
 /* CREDIT TO: https://getcssscan.com/css-buttons-examples (#87) */
 section.sign-up form button[type="submit"] {
   padding: 15px 30px;
