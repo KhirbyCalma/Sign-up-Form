@@ -54,7 +54,8 @@
                         </div>
                         <div>
                             <label for="password">Password <strong><span aria-label="required">*</span></strong></label>
-                            <input type="password" name="password" id="password" required>
+                            <!-- PATTERN CREDIT TO: https://stackoverflow.com/questions/48345922/reference-password-validation -->
+                            <input type="password" name="password" id="password" required pattern="^(?=\P{Ll}*\p{Ll})(?=\P{Lu}*\p{Lu})(?=\P{N}*\p{N})(?=[\p{L}\p{N}]*[^\p{L}\p{N}])[\s\S]{8,}$">
                         </div>
                         <div>
                             <label for="confirm_password">Confirm Password <strong><span aria-label="required">*</span></strong></label>
