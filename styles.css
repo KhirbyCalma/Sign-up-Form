@@ -85,6 +85,19 @@ section.sign-up form {
     display: flex;
     flex-direction: column;
     gap: var(--universal-padding);
+    width: 65ch;
+}
+
+section.sign-up form section.personal-info {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(max-content, 1fr));
+    gap: var(--universal-padding);
+}
+
+section.sign-up form section.personal-info div {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--universal-padding) / 2);
 }
 
 /* CREDIT TO: https://getcssscan.com/css-buttons-examples (#87) */
