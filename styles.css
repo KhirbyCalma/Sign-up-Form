@@ -93,6 +93,10 @@ section.sign-up form {
     width: 65ch;
 }
 
+section.sign-up form h1 {
+    font-size: 1.25rem;
+}
+
 section.sign-up form section.personal-info {
     display: grid;
     grid-template-columns: repeat(2, minmax(max-content, 1fr));
