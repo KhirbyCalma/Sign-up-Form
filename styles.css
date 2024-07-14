@@ -81,6 +81,12 @@ section.sign-up section.quote blockquote em {
     font-style: italic;
 }
 
+section.sign-up form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--universal-padding);
+}
+
 /* CREDIT TO: https://getcssscan.com/css-buttons-examples (#87) */
 section.sign-up form button[type="submit"] {
   padding: 15px 30px;
