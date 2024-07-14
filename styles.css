@@ -2,6 +2,7 @@
 
 :root {
     --universal-padding: 1rem;
+    --primary-color: #F09819;
 }
 
 html * {
@@ -10,6 +11,7 @@ html * {
 
 body {
     display: flex;
+    flex-wrap: wrap;
     min-height: 100vh;
 }
 
@@ -17,11 +19,8 @@ body {
 section.side-hero {
     position: relative;
     flex: 1;
-}
-
-section.side-hero {
     background-image: url("./hero.png");
-    background-color: rgb(220,121,88);
+    background-color: var(--primary-color);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
