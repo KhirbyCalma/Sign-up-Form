@@ -65,3 +65,18 @@ section.sign-up {
     padding: var(--universal-padding);
     gap: var(--universal-padding);
 }
+
+section.sign-up section.quote {
+    width: 65ch;
+}
+
+section.sign-up section.quote blockquote {
+    font-size: 1.5rem;
+}
+
+section.sign-up section.quote blockquote strong {
+    font-weight: bold;
+}
+section.sign-up section.quote blockquote em {
+    font-style: italic;
+}
