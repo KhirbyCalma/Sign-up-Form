@@ -120,6 +120,27 @@ section.sign-up form section.personal-info div label {
     text-transform: uppercase;
 }
 
+/* CREDIT TO: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
+section.sign-up form section.personal-info div input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+section.sign-up form section.personal-info div input:valid {
+    border-color: #f09819;
+    outline: none;
+}
+
+section.sign-up form section.personal-info div input:focus:invalid {
+    border-color: red;
+    outline: none;
+}
+
 /* CREDIT TO: https://getcssscan.com/css-buttons-examples (#87) */
 section.sign-up form button[type="submit"] {
   padding: 15px 30px;
