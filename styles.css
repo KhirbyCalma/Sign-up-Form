@@ -68,7 +68,7 @@ section.sign-up {
     flex-direction: column;
     justify-content: center;
     padding: var(--universal-padding);
-    gap: var(--universal-padding);
+    gap: calc(var(--universal-padding) * 2);
 }
 
 section.sign-up section.quote {
@@ -82,8 +82,15 @@ section.sign-up section.quote blockquote {
 section.sign-up section.quote blockquote strong {
     font-weight: bold;
 }
+
 section.sign-up section.quote blockquote em {
     font-style: italic;
+}
+
+section.sign-up section.user-account {
+    display: flex;
+    flex-direction: column;
+    gap: var(--universal-padding);
 }
 
 section.sign-up form {
