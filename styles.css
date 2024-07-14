@@ -1,19 +1,41 @@
 body {
     display: flex;
-    max-height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
 }
 
 /* LEFT SIDE */
 section.side-hero {
+    position: relative;
     flex: 1;
 }
 
-section.side-hero img {
+section.side-hero {
+    background-image: url("./hero.png");
+    background-color: rgb(220,121,88);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+section.side-hero .banner {
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+}
+
+section.side-hero .banner h1 {
+    font-size: 2rem;
+}
+
+section.side-hero .banner h1 img {
+    height: 1em;
+    width: auto;
 }
 
 /* RIGHT SIDE */
