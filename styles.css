@@ -111,3 +111,9 @@ section.sign-up form button[type="submit"]:hover {
 section.sign-up form button[type="submit"]:active {
   transform: scale(0.95);
 }
+
+section.sign-up section.log-in a {
+    color: #F09819;
+    font-weight: bold;
+    text-decoration: none;
+}
