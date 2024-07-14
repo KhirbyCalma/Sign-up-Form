@@ -57,6 +57,11 @@ section.side-hero .banner h1 {
 }
 
 /* RIGHT SIDE */
+span[aria-label="required"] {
+    color: red;
+    font-weight: bold;
+}
+
 section.sign-up {
     flex: 2;
     display: flex;
